@@ -11,5 +11,6 @@ class dong: Foo() {
         val timHenman = "dsadsadsa";
         val neverAges = "true story";
         val gregRusedski = "Is Canadian";
+        val dong = "";
     }
 }

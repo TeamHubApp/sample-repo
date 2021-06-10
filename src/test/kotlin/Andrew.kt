@@ -4,6 +4,7 @@ package
 import java.io.Closeable
 
 class dong: Foo() {
+    hi
     fun bar() {
         val bf = BluetoothPeripheral();
         bf.anotherFunc();

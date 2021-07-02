@@ -1,4 +1,4 @@
-package
+package hello
 
 import java.io.Closeable
 fdsfdsfdsfsd

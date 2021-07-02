@@ -1,8 +1,7 @@
 package
 
-
 import java.io.Closeable
-
+fdsfdsfdsfsd
 class dong: Foo() {
     fun bar() {
         val bf = BluetoothPeripheral();

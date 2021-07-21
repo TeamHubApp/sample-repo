@@ -10,12 +10,12 @@ actual class BluetoothPeripheral(val bluetoothDevice: BluetoothDevice) {
         get() = deviceServices
     actual val uuid: String
         get() = bluetoothDevice.address
-fds
+   
     actual var rssi: Float? = null
 
     var deviceServices: List<BluetoothService> = listOf()
     
     fun anotherFunc() {
-        println("woo")
+        println("completed")
     }
 }

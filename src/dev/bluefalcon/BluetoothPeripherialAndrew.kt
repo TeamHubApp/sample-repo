@@ -27,7 +27,7 @@ actual class BluetoothService(val service: BluetoothGattService) {
         get() = service.uuid.toString()
     actual val chars: List<BluetoothCharacteristic>
         get() = service.characteristics.map {
-            BluetoothCharacteristic(it)
+            BluetoothCharacteristic(it)ashkasdkhjdaskbjh
         }
     val anotherChange = "Test"
     val commitAhead = "Ahead.PartTwo"

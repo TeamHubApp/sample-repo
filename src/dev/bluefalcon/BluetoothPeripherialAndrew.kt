@@ -15,21 +15,7 @@ actual class BluetoothPeripheral(val bluetoothDevice: BluetoothDevice) {
     
     var deviceServices: List<BluetoothService> = listOf()
 
-    fun completedFunc() {
-        println("Task com")
+    fun anotherFunc() {
+        println("woo")
     }
-
-}
-
-   var another = "hi"
-actual class BluetoothService(val service: BluetoothGattService) {
-    actual val name: String?
-        get() = service.uuid.toString()
-    actual val chars: List<BluetoothCharacteristic>
-        get() = service.characteristics.map {
-            BluetoothCharacteristic(it)ashkasdkhjdaskbjh
-        }
-    val anotherChange = "Test"
-    val commitAhead = "Ahead.PartTwo"
-    val moveMaster = "furtherAhead"
 }

@@ -1,1 +1,1 @@
-class Foobar
+class Fodbndobar
